@@ -2,6 +2,11 @@ from datetime import datetime
 
 
 def convert_datetime(date_str):
+    """
+    convert date string to datetime
+    :param date_str: date string
+    :return: datetime
+    """
     try:
         parts_of_date = date_str.split()
         if len(parts_of_date) != 2:
@@ -47,5 +52,7 @@ def convert_datetime(date_str):
     except:
         return None
 
+
+print(convert_datetime('12/12/1998 18:12:38'))
 
 print(convert_datetime('12/12/1998 18:12:38'))

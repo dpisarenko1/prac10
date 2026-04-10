@@ -1,4 +1,10 @@
 def numbers(A, B):
+    """
+    finding numbers consisting of '13489'
+    :param A: start number
+    :param B: end number
+    :return: numbers consisting of '13489'
+    """
     result = []
 
     if A > B:

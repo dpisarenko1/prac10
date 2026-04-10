@@ -1,4 +1,8 @@
 def f(line):
+    """
+    :param line: the original line
+    :return: number of vowels and consonants
+    """
     cnt_vowel = 0
     cnt_consonant = 0
 

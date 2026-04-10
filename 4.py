@@ -1,4 +1,9 @@
 def make_payment(P):
+    """
+    verification of the ability to make a payment
+    :param P: the amount of money
+    :return: the result, is it possible or not
+    """
     try:
         P = float(P)
 

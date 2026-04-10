@@ -1,4 +1,11 @@
 def common_multiplies(A, B, N):
+    """
+    finding common quotients of two numbers
+    :param A: first number
+    :param B: second number
+    :param N: limit of quotient
+    :return: common quotients
+    """
     result = []
 
     if A > N or B > N:

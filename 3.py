@@ -1,4 +1,11 @@
 def cost(start_cost, discount_card, holiday):
+    """
+    we consider the final price
+    :param start_cost: start cost without discount
+    :param discount_card: presence of discount card
+    :param holiday: day off or not
+    :return: the end cost
+    """
     end_discount = 0
 
     if start_cost > 30000:

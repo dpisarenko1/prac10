@@ -1,4 +1,9 @@
 def prime(number):
+    """
+    I don't remember this task
+    :param number: start number
+    :return: true if number is prime, else false
+    """
     if number < 2:
         return False
 

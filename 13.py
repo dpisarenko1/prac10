@@ -9,8 +9,6 @@ def polyhedron(vertices: list, color: str) -> None:
     :param vertices: a list consisting of the coordinates of the polyhedron's
     vertices. The function will traverse the vertices one by one
     :param color: fill color
-    :param stop: accepts two arguments: 0 - close the window, 1 - leave it open
-    (the default value is 0)
 
     :return: None
     """
@@ -27,6 +25,13 @@ def polyhedron(vertices: list, color: str) -> None:
     t.penup()
 
 def square(vertices: list, color1: str, color2: str) -> None:
+    """
+    function, drawing square with 2 triangles.
+    :param vertices: coordinates of the polyhedron's vertices
+    :param color1: color of the first triangle
+    :param color2: color of the second triangle
+    :return: None
+    """
     polyhedron(vertices, color1)
     if vertices[1][1] > vertices[2][1]:
         vertices[1] = (vertices[1][0] - 20, vertices[1][1] - 20)
@@ -36,6 +41,10 @@ def square(vertices: list, color1: str, color2: str) -> None:
 
 
 def main():
+    """
+    main function drawing an ornament
+    :return: None
+    """
     # Blue - '#0000ff'
     # light-blue - '#87cefa'
     # blue-gray - '#dbefff'

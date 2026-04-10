@@ -1,4 +1,8 @@
 def fibonaci(n):
+    """
+    :param n: the last number
+    :return: fibonacci series
+    """
     if n <= 0:
         return 0
 

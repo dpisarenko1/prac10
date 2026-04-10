@@ -1,4 +1,9 @@
 def seconds_since_year_start(datetime_str):
+    """
+    counting the time until the year start
+    :param datetime_str: date string
+    :return: seconds since year start
+    """
     try:
         parts = datetime_str.split()
         if len(parts) != 2:

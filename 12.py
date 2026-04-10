@@ -1,6 +1,14 @@
 import turtle
 
 def draw_square(x, y, side_length, color):
+    """
+    function drawing a square
+    :param x: start x pos
+    :param y: start y pos
+    :param side_length: length of the square
+    :param color: color of the square
+    :return: None
+    """
     turtle.penup()
     turtle.goto(x, y)
 
@@ -16,6 +24,14 @@ def draw_square(x, y, side_length, color):
 
 
 def draw_circle(x, y, radius, color):
+    """
+    function drawing a circle
+    :param x: center x position
+    :param y: center y position
+    :param radius: circle radius
+    :param color: color of the circle
+    :return: None
+    """
     turtle.penup()
     turtle.goto(x, y - radius)
 
@@ -27,6 +43,14 @@ def draw_circle(x, y, radius, color):
     turtle.end_fill()
 
 def draw_star(x, y, size, color):
+    """
+    function drawing a star
+    :param x: stride x position
+    :param y: stride y position
+    :param size: size of the star
+    :param color: color of the star
+    :return: None
+    """
     turtle.penup()
     turtle.goto(x, y)
     turtle.pendown()
@@ -43,6 +67,10 @@ def draw_star(x, y, size, color):
 import turtle
 
 def main():
+    """
+    main function drawing The ornament
+    :return: None
+    """
     turtle.speed(1000)
     turtle.penup()
     y = 0
